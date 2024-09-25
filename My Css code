@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int w,c;
+	cin>>w;
+	while(w--)
+	{
+	    cin>>c;
+	    if (c>20)
+	    {
+	        cout<<"hot"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"cold"<<endl;
+	    }
+	}// your code goes here
+return 0;
+}
